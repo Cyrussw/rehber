@@ -22,7 +22,7 @@ print(
 )
 
 while True:  # Her seferinde tekrarla
-    user = str(input("Seçenek: "))  # Kullanıcıdan veri al
+    user = input("Seçenek: ")  # Kullanıcıdan veri al
 
     if not user:  # Kullanıcı boş veri gönderirse
         print("Lütfen bir işlem giriniz.")
